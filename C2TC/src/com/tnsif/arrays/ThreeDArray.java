@@ -9,9 +9,9 @@ public class ThreeDArray {
 		
 		System.out.println(x[1][0][1]);
 		
-		System.out.println(x[1][2][0]);
-		
 		System.out.println(x[1][1][1]);
+		
+		System.out.println(x[1][2][0]);
 		
 		System.out.println(x[2][1][0]);
 		
