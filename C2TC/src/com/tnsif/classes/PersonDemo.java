@@ -3,7 +3,9 @@ package com.tnsif.classes;
 import java.util.Scanner;
 
 public class PersonDemo {
-    public Static void main(String[] args) {
+	
+    public static void main(String[] args) 
+    {
 		Scanner ob = new Scanner(System.in);
 		System.out.println("Enter the name of the person=");
 		String name=ob.next();
@@ -26,7 +28,7 @@ public class PersonDemo {
 		System.out.println(person);
 		
 		TaxCalculation calc=new TaxCalculation();
-		calc=calculateTax(person);
+		calc.calculateTax(person);
 		
 		System.out.println("after tax calculation");
 		System.out.println(person);
