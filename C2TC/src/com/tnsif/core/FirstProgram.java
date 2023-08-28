@@ -13,9 +13,9 @@ public class FirstProgram {
 		boolean a = true;
 		String str = "Maryam";
 		long ageDino = 676645343658987l;//valid values java accept long L, Double D 
-		System.out.print(str);
+		System.out.print(str);//no new line 
 		System.out.println("Welcome to tnsif !!!");
 
-	}
+	} 
 
 }
