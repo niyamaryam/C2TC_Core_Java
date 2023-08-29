@@ -47,6 +47,8 @@ public class SingleAddEx {
 
 	public static void main(String[] args) {
 		
+		//access all the method with B class obj
+		
 		B nm = new B();
 		nm.input();
 		nm.add();
