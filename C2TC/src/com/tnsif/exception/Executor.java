@@ -7,8 +7,11 @@ public class Executor {
 		// as the method static we dont need obj we can directly call  
 
 		
-		TryCatchDemo.divide(12, 6);
-		TryCatchDemo.divide(12, 0);
+//		TryCatchDemo.divide(12, 6);
+//		TryCatchDemo.divide(12, 0);
+		System.out.println("I am in main method,,,,");
+		Division.divide();
 	}
+		
 
 }
