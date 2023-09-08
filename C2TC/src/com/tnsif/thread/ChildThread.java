@@ -1,5 +1,5 @@
 package com.tnsif.thread;
-
+//extends thread class
 public class ChildThread extends Thread// technique 1
 {
 	public void run()

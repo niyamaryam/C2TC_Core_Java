@@ -1,5 +1,5 @@
 package com.tnsif.thread;
-
+//runnable class
 public class ChildThreadDemo implements Runnable
 {
 

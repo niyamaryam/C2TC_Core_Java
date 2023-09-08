@@ -26,6 +26,7 @@ public class ThreadLifeCycleDemo extends Thread{
 		System.out.println("before runnable state thread is alive or not?"+myThread.isAlive());
 		myThread.start();
 		try {
+			//static
 			Thread.sleep(4000);
 		} catch (InterruptedException e) {
 			System.err.println("Thread interrupted...");

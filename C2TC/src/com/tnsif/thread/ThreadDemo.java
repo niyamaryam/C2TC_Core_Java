@@ -1,5 +1,5 @@
 package com.tnsif.thread;
-//demo on creating threads using thread class
+//demo on creating threads using thread class....
 public class ThreadDemo {
 
 	public static void main(String[] args) {
