@@ -1,5 +1,5 @@
 package com.tnsif.interfaces.multipleInheritance;
 
-public class InterfaceOne {
+public interface InterfaceOne {
 
 }

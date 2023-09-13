@@ -1,5 +1,6 @@
 package com.tnsif.interfaces.multipleInheritance;
 
-public abstract class ChildInterface {
+public interface ChildInterface {
+	abstract void print();
 
 }
