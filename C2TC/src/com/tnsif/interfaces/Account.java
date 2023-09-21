@@ -45,4 +45,10 @@ public class Account {
     public void setBank(Bank bank) {
         this.bank = bank;
     }
+
+	@Override
+	public String toString() {
+		return "Account [accno=" + accno + ", name=" + name + ", balance=" + balance + ", bank=" + bank + "]";
+	}
+
 }

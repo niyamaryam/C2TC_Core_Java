@@ -1,6 +1,6 @@
 package com.tnsif.interfaces;
 
-ublic class BankImpl implements Bank {
+public class BankImpe implements Bank {
 
     @Override
     public void deposit(Account account, double amount) {
