@@ -13,6 +13,14 @@ public class Account {
         this.balance = balance;
         this.bank = bank;
     }
+    //method calling
+    public void deposit(double amount) {
+    	bank.deposit(this, amount);
+    }
+    
+    public void withdraw(double amount) {
+    	bank.withdraw(this, amount);
+    }
 
     public int getAccno() {
         return accno;

@@ -5,7 +5,7 @@ public class Executor{
     public static void main(String[] args) {
         Bank bank = new BankImpe();
         //create an account
-        Account account = new Account(123456, "Avantika", 5, bank);
+        Account account = new Account(123456, "Avantika", 155000, bank);
 
         //Deposite money
         account.deposit(2000);
